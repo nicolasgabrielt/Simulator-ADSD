@@ -6,7 +6,7 @@ import eduni.simjava.distributions.Sim_uniform_obj;
 
 public class Client extends Sim_entity {
 
-    private Sim_port in_a;
+    private Sim_port in;
     private Sim_uniform_obj delay;
 
     public Client (String name, double min, double max) {
@@ -15,9 +15,9 @@ public class Client extends Sim_entity {
         delay = new Sim_uniform_obj("Delay", min, max);
         add_generator(delay);
 
-        in_a = new Sim_port("InA");
+        in = new Sim_port("In");
 
-        add_port(in_a);
+        add_port(in);
 
     }
 
