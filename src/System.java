@@ -1,7 +1,6 @@
 import eduni.simjava.Sim_system;
 import entities.*;
 
-import javax.net.ssl.SSLEngineResult;
 
 public class System {
 
@@ -10,10 +9,10 @@ public class System {
         // Initialise Sim_system
         Sim_system.initialise();
         // Add the sensors
-        Sensor sensorA = new Sensor("SensorA", 5 , 10 );
-        Sensor sensorB = new Sensor("SensorB", 1, 5 );
-        Sensor sensorC = new Sensor("SensorC", 10 , 20 );
-        Sensor sensorD = new Sensor("SensorD", 20, 30 );
+        Sensor sensorA = new Sensor("SensorA", 100,5 , 10 );
+        Sensor sensorB = new Sensor("SensorB", 70,1, 5 );
+        Sensor sensorC = new Sensor("SensorC", 80, 10 , 20 );
+        Sensor sensorD = new Sensor("SensorD", 95,20, 30 );
         // Add the computers
         Computer computerA = new Computer("ComputerA", 30 , 50);
         Computer computerB = new Computer("ComputerB", 10 , 20);
