@@ -1,26 +1,19 @@
 package entities;
 
-import eduni.simjava.Sim_entity;
 import eduni.simjava.Sim_event;
 import eduni.simjava.Sim_port;
 import eduni.simjava.Sim_system;
-import eduni.simjava.distributions.Sim_uniform_obj;
 
-public class Server extends Sim_entity {
+public class Server extends CustomEntity {
 
     private Sim_port inA;
     private Sim_port inB;
-
     private Sim_port outA;
     private Sim_port outB;
 
-    private Sim_uniform_obj delay;
 
     public Server(String name, double min, double max) {
-        super(name);
-
-        delay = new Sim_uniform_obj("Delay", min, max);
-        add_generator(delay);
+        super(name, min, max);
 
         inA = new Sim_port("InA");
         inB = new Sim_port("InB");
@@ -40,7 +33,7 @@ public class Server extends Sim_entity {
 //        get the next event and process it
             Sim_event e = new Sim_event();
             sim_get_next(e);
-            sim_process(delay.sample());
+            sim_process(getDelay().sample());
             sim_completed(e);
 //        send an event to each output ports
             sim_schedule(outA, 0.0, 2);

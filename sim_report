@@ -6,9 +6,9 @@
 
 Version: SimJava 2.0
 
-Simulation date:         1 de novembro de 2018
-Simulation start time:   23:44:06 BRT
-Simulation end time:     23:44:06 BRT
+Simulation date:         2 de novembro de 2018
+Simulation start time:   15:18:43 BRT
+Simulation end time:     15:18:43 BRT
 
 ############################################################
 #            Overall simulation run information            #
@@ -20,4 +20,278 @@ Total steady state time: 56559.54814081061
 Transient condition:     None
 Termination condition:   None
 Output analysis method:  None
+
+############################################################
+#               Simulation run measurements                #
+############################################################
+
+------------------------- SensorA --------------------------
+
+- Utilisation
+
+Sample mean:          0.0
+
+- Service time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+------------------------- SensorB --------------------------
+
+- Utilisation
+
+Sample mean:          0.0
+
+- Service time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+------------------------- SensorC --------------------------
+
+- Utilisation
+
+Sample mean:          0.0
+
+- Service time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+------------------------- SensorD --------------------------
+
+- Utilisation
+
+Sample mean:          0.0
+
+- Service time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+------------------------ ComputerA -------------------------
+
+- Utilisation
+
+Sample mean:          0.11843384806172684
+
+- Service time
+
+Sample mean:          39.40332312322758
+Sample variance:      30.324393687795602
+Sample std deviation: 5.506758909539767
+Maximum:              49.971684264005944
+Minimum:              30.001574605704263
+
+- Waiting time
+
+Sample mean:          3079.9612061865846
+Sample variance:      3008331.4047400374
+Sample std deviation: 1734.4542094676463
+Maximum:              5937.584818826326
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          9.25738309910436
+Sample variance:      868.6519071355978
+Sample std deviation: 29.47290123377062
+Maximum:              151.0
+Minimum:              0.0
+
+------------------------ ComputerB -------------------------
+
+- Utilisation
+
+Sample mean:          0.04593330563808543
+
+- Service time
+
+Sample mean:          14.845525780022061
+Sample variance:      9.841555252835494
+Sample std deviation: 3.137125316724771
+Maximum:              19.98853238298966
+Minimum:              10.013370048260981
+
+- Waiting time
+
+Sample mean:          379.6936634949185
+Sample variance:      37002.92827065739
+Sample std deviation: 192.36145214324358
+Maximum:              709.7316666598122
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          1.1748041364507698
+Sample variance:      36.40230923668768
+Sample std deviation: 6.033432624691161
+Maximum:              49.0
+Minimum:              0.0
+
+-------------------------- Server --------------------------
+
+- Utilisation
+
+Sample mean:          0.4276339637682867
+
+- Service time
+
+Sample mean:          70.10661959535673
+Sample variance:      31.67934873024527
+Sample std deviation: 5.628441056833168
+Maximum:              79.85728341148024
+Minimum:              60.04643091002799
+
+- Waiting time
+
+Sample mean:          9755.91455018972
+Sample variance:      2.8197977348149765E7
+Sample std deviation: 5310.176771836298
+Maximum:              17442.5437826489
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          59.508794367238956
+Sample variance:      7206.750155288241
+Sample std deviation: 84.89258009560224
+Maximum:              249.0
+Minimum:              0.0
+
+------------------------- Database -------------------------
+
+- Utilisation
+
+Sample mean:          0.99841189496822
+
+- Service time
+
+Sample mean:          163.68036416757388
+Sample variance:      1054.7431210229704
+Sample std deviation: 32.47680897229545
+Maximum:              219.69305391874514
+Minimum:              110.1727027493398
+
+- Waiting time
+
+Sample mean:          15920.104178229509
+Sample variance:      8.646031502052933E7
+Sample std deviation: 9298.403896396914
+Maximum:              32158.78519322202
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          97.10890772704231
+Sample variance:      3205.573383943316
+Sample std deviation: 56.61778328355249
+Maximum:              195.0
+Minimum:              0.0
+
+-------------------------- Client --------------------------
+
+- Utilisation
+
+Sample mean:          0.3360107272005002
+
+- Service time
+
+Sample mean:          55.085840292537604
+Sample variance:      8.131585455565581
+Sample std deviation: 2.851593494095114
+Maximum:              59.99781434889792
+Minimum:              50.024473369133375
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              1.0
+Minimum:              0.0
 
